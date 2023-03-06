@@ -1,0 +1,13 @@
+cluster_name   = "logpay-dev"
+vpc_id         = "vpc-0ea856b9a0febd5df"
+ecs_sg         = "sg-01c5bdac947ffe16e"
+zone_id        = "Z00097902EZROL4EJJNIB"
+lb-cluster     = "logpay-dev-LB-920082241"
+listener_arn   = "arn:aws:elasticloadbalancing:eu-central-1:364952602419:listener/app/logpay-dev-LB/5abe2698806dd578/278690814b83b989"
+environment    = "dev"
+aws_account_id = "364952602419"
+dns_domain     = "dev.logpay.byaxion.com"
+subnet1        = "subnet-021b175afde7e91b9"
+subnet2        = "subnet-00bb488faced2c036"
+subnet3        = "subnet-0539954971c2f0753"
+desired_count  = 1
