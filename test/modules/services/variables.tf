@@ -21,14 +21,6 @@ variable "jobrunr_port" { default = null }
 
 variable "desired_count" { default = 1 }
 
-variable "cluster_name" {
-  default     = "null"
-  type        = string
-  description = "Name of an ECS cluster"
-}
+variable "cluster_name" { default = "Name of an ECS cluster" }
 
-variable "lb-cluster" {
-  default     = null
-  type        = string
-  description = "Name of load balancer cluster"
-}
+variable "lb-cluster" { default = "Name of load balancer cluster" }
